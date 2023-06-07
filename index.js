@@ -1,3 +1,4 @@
+/*
 function getComputerChoice() {
     let choices = ["Rock", "Paper", "Scissors"];
     return choices[Math.floor(Math.random() * choices.length)];
@@ -44,14 +45,13 @@ function getComputerChoice() {
         your_score = 0;
         computer_score = 0;
       }
-      else {
-        your_score = 0;
-        computer_score = 0;
-      }
     }
   
     alert(`Your score is ${your_score}`);
+
+    your_score = 0;
+    computer_score = 0;
   }
   
   game();
-  
+  */

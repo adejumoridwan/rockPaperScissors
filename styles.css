@@ -1,0 +1,54 @@
+body{
+    background: indigo;
+}
+.rock{
+    filter: invert(26%) sepia(89%) saturate(1583%) hue-rotate(95deg) brightness(96%) contrast(106%);
+    padding: 50px;
+}
+.paper{
+    filter: invert(16%) sepia(99%) saturate(7404%) hue-rotate(4deg) brightness(95%) contrast(118%);
+    padding: 50px;
+}
+.scissors{
+    filter: invert(10%) sepia(90%) saturate(5268%) hue-rotate(245deg) brightness(109%) contrast(155%);
+    padding: 50px;
+}
+.rock, .paper, .scissors{
+    width: 10%;
+    height: auto;
+}
+.rock-paper-scissors{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.background{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.play{
+    width:200px;
+    height: 50px;
+    align-self: center;
+    font-family: cursive;
+    color: brown;
+    font-size: 30px;
+    border-style:groove;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    border: 5px solid yellowgreen;
+    outline-style: solid;
+    outline-color: yellowgreen;
+}
+h1{
+    align-self: center;
+    padding: 30px;
+    font-size: 50px;
+    color: yellowgreen;
+    border: 5px solid turquoise;
+    outline-style: solid;
+    outline-color: azure;
+    font-family: cursive;
+}
