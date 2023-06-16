@@ -1,3 +1,4 @@
+
 body{
     background: indigo;
 }
@@ -51,4 +52,13 @@ h1{
     outline-style: solid;
     outline-color: azure;
     font-family: cursive;
+}
+.you-and-computer{
+    display:flex;
+    justify-content: space-between;
+    color: white;
+}
+.rounds{
+    align-self: center;
+    color: white;
 }
